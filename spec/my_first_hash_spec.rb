@@ -1,6 +1,8 @@
 require_relative 'spec_helper'
-require_relative '../my_first_hash.rb'
+hash = {"key1" => "value1"}
+hash["key2"] = "value2"
 
+hash
 
 context "Challenge I: Instantiating Hashes" do
   describe "#my_hash" do
